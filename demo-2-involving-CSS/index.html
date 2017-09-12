@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Explaining CSS</title>
+    
+    <!--
+    <link> tag is used for linking the external style-sheets.
+    In our case, style-sheet named "style.css" is placed in the 
+    folder "css" -->
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <style>
+        /* CSS comment */
+        
+        /* 
+        Embedded CSS styling - use it only for testing purposes (experimenting) */
+        a {
+            color: cornflowerblue;
+        }   
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                                <!--
+                                Inline CSS styling - not recommended -->
+                <li><a href="#" style="color: coral;">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
